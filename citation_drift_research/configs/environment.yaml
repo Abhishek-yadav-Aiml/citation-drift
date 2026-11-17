@@ -1,0 +1,12 @@
+project: citation-drift-research
+target_platform: macOS Apple Silicon
+python_candidate: "3.10"
+architecture_expected: arm64
+seed: 42
+alignscore:
+  package: "yuh-zha/AlignScore"
+  checkpoint: "AlignScore-base"
+  batch_size: 1
+  device_preference: "mps_then_cpu"
+  checkpoint_downloaded: false
+compatibility_status: "UNVERIFIED - run environment_check.py"

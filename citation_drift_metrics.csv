@@ -1,0 +1,9 @@
+Metric,Value,Unit
+Total extracted claims,20.0,count
+Supported claims,19.0,count
+Partially supported claims,1.0,count
+Unsupported claims,0.0,count
+Unverifiable claims,0.0,count
+Claim support rate,95.0,%
+Partial support rate,5.0,%
+Mean pairwise reference Jaccard,0.4484126984126984,0–1

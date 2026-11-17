@@ -1,0 +1,27 @@
+study: evidence_scope_claim_citation_verification
+domain: computer_science
+seed: 42
+dataset:
+  source_pool: CS-PaperSum
+  status: not_downloaded
+  target_source_papers: 12
+  target_claim_citation_pairs: 60
+  annotations: 2
+retrieval:
+  method: BM25
+  chunk_tokens: 350
+  overlap_tokens: 50
+  top_k: 5
+methods:
+  - direct_alignscore_base
+  - factscore_inspired_atomic_alignscore
+evidence_conditions:
+  - abstract_only
+  - bm25_full_text
+  - human_selected_diagnostic
+partitions:
+  grouping_key: canonical_source_paper_id
+  development_fraction: 0.60
+  validation_fraction: 0.20
+  test_fraction: 0.20
+status: protocol_scaffold_only

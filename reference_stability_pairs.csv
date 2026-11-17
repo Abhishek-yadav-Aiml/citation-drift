@@ -1,0 +1,4 @@
+Comparison,Intersection,Union,Jaccard
+Run 1 vs Run 2,4,6,0.6666666666666666
+Run 1 vs Run 3,2,8,0.25
+Run 2 vs Run 3,3,7,0.42857142857142855

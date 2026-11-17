@@ -1,0 +1,10 @@
+# Candidate lightweight dependencies; install and validate in a clean venv.
+numpy==1.26.4
+pandas==2.2.3
+scikit-learn==1.5.2
+rank-bm25==0.2.2
+pypdf==5.1.0
+tqdm==4.67.1
+PyYAML==6.0.2
+psutil==6.1.0
+pytest==8.3.4
